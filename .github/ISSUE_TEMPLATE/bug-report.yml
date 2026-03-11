@@ -8,7 +8,7 @@ body:
       label: App
       options:
         - Boys Trip
-        - Stashd
+        - Tapbox
         - Clay Score Card
         - Pooka Collage
     validations:
