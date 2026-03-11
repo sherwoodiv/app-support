@@ -1,0 +1,40 @@
+name: Bug Report
+description: Report a bug in one of our apps
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: app
+    attributes:
+      label: App
+      options:
+        - Boys Trip
+        - Stashd
+        - Clay Score Card
+        - Pooka Collage
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      placeholder: A clear description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to '...'
+        2. Tap on '...'
+        3. See error
+  - type: input
+    id: ios-version
+    attributes:
+      label: iOS version
+      placeholder: e.g. 18.3
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      placeholder: e.g. iPhone 16 Pro

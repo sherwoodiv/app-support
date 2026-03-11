@@ -1,0 +1,27 @@
+name: Feature Request
+description: Suggest a new feature for one of our apps
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: app
+    attributes:
+      label: App
+      options:
+        - Boys Trip
+        - Stashd
+        - Clay Score Card
+        - Pooka Collage
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the feature
+      placeholder: A clear description of the feature you'd like to see.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would this be useful?
+      placeholder: Explain how this feature would improve the app for you.
